@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <!-- Lightbox CSS -->
+      <link href="css/lightbox.min.css" rel="stylesheet">
+      <!-- Our own custom CSS -->
+      <link href="css/styles.css" rel="stylesheet">
+
+      <title>Capstone Portfolio</title>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+      <header>
+        <!-- todo: figure out how to fix the covered section because of fixed-top -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
+          <a class="navbar-brand" href="#">
+            <img src="images/html-coding.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Jovy Ong
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            
+            <!-- <button class="btn btn-outline-info my-2 my-sm-0" type="button">Say Hello</button> -->
+          </div>
+        </nav>
+      </header>
+
+      <main>
+
+        <!-- jumbotron -->
+        <div id="about" class="jumbotron jumbotron-fluid bg-light">
+          <div class="container">
+            <h1 class="text-center display-4 mb-5">About</h1>
+            <img class="img-thumbnail d-block mx-auto mb-4" src="images/avatar.svg" alt="Avatar" width="200" height="200">
+
+            <h2 class="text-center">Hi, I'm Jovy. Nice to meet you.</h2>
+            <p class="lead text-center">I'm an aspiring programmer who's studying to become a full-stack web developer. I'm currently working as an iOS app developer and would like to eventually transition to full-stack web development. I just finished a front-end web development course and below you could see the projects I made.</p>
+          </div>
+        </div>
+        <!-- /jumbotron -->
+        
+        <!-- portfolio -->
+        <div id="portfolio" class="container py-5">
+          <h2 class="text-center mb-5">Portfolio</h2>
+
+          <div class="row">
+
+            <!-- 1 card/row for xs and sm -->
+            <!-- 2 card/row for md -->
+            <!-- 3 card/row for lg and above -->
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="card h-100 shadow">
+                <a href="images/project1.png" data-lightbox="gallery-set" data-title="Mobile-first responsive layout.">
+                  <img src="images/thumbnail/project1.png" class="card-img-top" alt="Project 1 thumbnail">
+                </a>
+                <div class="card-body d-md-flex flex-md-column">
+                  <h5 class="card-title">Mobile-first responsive layout</h5>
+                  <p class="card-text">A portfolio page built using HTML and CSS with mobile-first approach. Succeeding projects are built with mobile-first approach in mind.</p>
+                  <a href="https://jovy83.github.io/fewd-td-project2-revisited" target="_blank" class="btn btn-outline-primary mt-auto">Go to site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="card h-100 shadow">
+                <a href="images/project2.png" data-lightbox="gallery-set" data-title="Online registration form.">
+                  <img src="images/thumbnail/project2.png" class="card-img-top" alt="Project 2 thumbnail">
+                </a>
+                <div class="card-body d-md-flex flex-md-column">
+                  <h5 class="card-title">Online registration form</h5>
+                  <p class="card-text">Sample newsletter web form built using HTML and CSS.</p>
+                  <a href="https://jovy83.github.io/fewd-td-project3-revisited" target="_blank" class="btn btn-outline-primary mt-auto">Go to site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="card h-100 shadow">
+                <a href="images/project3.png" data-lightbox="gallery-set" data-title="Web style guide.">
+                  <img src="images/thumbnail/project3.png" class="card-img-top" alt="Project 3 thumbnail">
+                </a>
+                <div class="card-body d-md-flex flex-md-column">
+                  <h5 class="card-title">Web style guide</h5>
+                  <p class="card-text">Converted a style guide that was initially styled with CSS to Sass.</p>
+                  <a href="https://jovy83.github.io/fewd-td-project4-revisited" target="_blank" class="btn btn-outline-primary mt-auto">Go to site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="card h-100 shadow">
+                <a href="images/project4.png" data-lightbox="gallery-set" data-title="Interactive photo gallery.">
+                  <img src="images/thumbnail/project4.png" class="card-img-top" alt="Project 4 thumbnail">
+                </a>
+                <div class="card-body d-md-flex flex-md-column">
+                  <h5 class="card-title">Interactive photo gallery</h5>
+                  <p class="card-text">A searchable gallery of photos with lightbox functionality using JavaScript, jQuery, and lightbox plugin.</p>
+                  <a href="https://jovy83.github.io/fewd-td-project5-revisited" target="_blank" class="btn btn-outline-primary mt-auto">Go to site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="card h-100 shadow">
+                <a href="images/project5.png" data-lightbox="gallery-set" data-title="Game show app.">
+                  <img src="images/thumbnail/project5.png" class="card-img-top" alt="Project 5 thumbnail">
+                </a>
+                <div class="card-body d-md-flex flex-md-column">
+                  <h5 class="card-title">Game show app</h5>
+                  <p class="card-text">A "wheel of success" web-based game built using JavaScript for the game logic.</p>
+                  <a href="https://jovy83.github.io/fewd-td-project6-revisited" target="_blank" class="btn btn-outline-primary mt-auto">Go to site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="card h-100 shadow">
+                <a href="images/project6.png" data-lightbox="gallery-set" data-title="WebApp dashboard.">
+                  <img src="images/thumbnail/project6.png" class="card-img-top" alt="Project 6 thumbnail">
+                </a>
+                <div class="card-body d-md-flex flex-md-column">
+                  <h5 class="card-title">WebApp dashboard</h5>
+                  <p class="card-text">A dashboard built using HTML, CSS/Sass (with Flexbox and Grid), JavaScript, Local storage, ChartJS, and jQuery.</p>
+                  <a href="https://jovy83.github.io/fewd-td-project7-revisited" target="_blank" class="btn btn-outline-primary mt-auto">Go to site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="card h-100 shadow">
+                <a href="images/project7.png" data-lightbox="gallery-set" data-title="Employee directory.">
+                  <img src="images/thumbnail/project7.png" class="card-img-top" alt="Project 7 thumbnail">
+                </a>
+                <div class="card-body d-md-flex flex-md-column">
+                  <h5 class="card-title">Employee directory</h5>
+                  <p class="card-text">A searchable employee directory page that gets employee data from an API. Fetch API was used to get data from the API.</p>
+                  <a href="https://jovy83.github.io/fewd-td-project8-revisited" target="_blank" class="btn btn-outline-primary mt-auto">Go to site</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+        <!-- /portfolio -->
+
+      </main>
+
+      <footer>
+        <!-- contact -->
+        <div id="contact" class="container-fluid bg-dark py-5">
+
+          <div class="container">
+            <h2 class="text-center mb-4 text-white">Contact</h2>
+            <p class="text-center mb-5 text-info">Have a question or want to work together?</p>
+
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <!-- form -->
+                <form class="d-flex flex-column">
+                  <div class="form-group mb-1">
+                    <label class="sr-only" for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group mb-1">
+                    <label class="sr-only" for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="sr-only" for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-lg btn-outline-info align-self-center">Submit</button>
+                </form>
+                <!-- /form -->
+              </div>
+            </div>
+
+            <hr class="my-5 border-white">
+
+            <!-- credits -->
+            <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center">
+
+              <a class="mb-sm-0 mb-4 text-info" href="#">Back to Top</a>
+
+              <div>
+                <a href="https://twitter.com/Jovyy83" target="_blank">
+                  <img class="img-social mr-3" src="images/twitter.svg" alt="">
+                </a>
+                <a href="https://github.com/Jovy83" target="_blank">
+                  <img class="img-social" src="images/github.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/jovy-ong-249253177/" target="_blank">
+                  <img class="img-social ml-3" src="images/linkedin.svg" alt="">
+                </a>
+              </div>
+
+              <small class="text-muted mb-sm-0 mb-3">Jovy Ong	&copy; 2020</small>
+
+            </div>
+            <!-- /credits -->
+
+          </div>
+          
+        </div>
+        <!-- /contact -->
+      </footer>
+      
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <!-- momentJS for converting date time stuff -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment-with-locales.min.js" integrity="sha256-8d6kI5cQEwofkZmaPTRbKgyD70GN5mDpTYNP9YWhTlI=" crossorigin="anonymous"></script>
+      <!-- Lightbox JS -->
+      <script src="js/lightbox2-2.11.1/lightbox.min.js"></script>
+      <!-- our own JS -->
+      <script src="js/main.js"></script>
+        
+    </body>
+</html>
